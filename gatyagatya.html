@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+        <div  id="mondaisuu">
+            <div><p>問題数　<span id="q_counter">0</span>/10</p></div>
+        </div>
+        <div class="yokonarabi hako button">
+            <div><a href="">help</a></div>
+            <div><a href="index.html">☓閉じる</a></div>
+        </div>
+    </div>
+    <div class="zone" id="zone">
+        <div id="mondai">
+            <div><p id="kotae">スペースキーで開始</p></div>
+            <div><p id="ro-ma" class="text-span"></p></div>
+        </div>
+    </div>
+    <div id="kekka" class="mienai">
+            
+        <h1>スコア</h1>
+        <div class="yokonarabi box">
+            <div>
+                <ul>
+                    <li>入力文字数= <span id="mojisuu"></span></li>
+                    <li>ミス入力= 0</li>
+                    <li>正確率= 100%</li>
+                    <li>WPM= <span id="WPM"></span></li>
+                    <li>平均キータイプ数= <span id="heikin"></span></li>
+                </ul>
+            </div>
+            <div class="e_type">
+                <h2>e-typingで評価するなら...</h2>
+                <ul>
+                    <li>スコア <span id="score"></span></li>
+                    <li>レベル <span id="level"></span></li>
+                </ul>
+                <p id="komento">
+                </p>
+            </div>
+        </div>
+        <div class="yokonarabi box button">
+            <div id="div-tweet"></div>
+            <div><input type="button" value="もう一回" onclick="window.location.reload();"  class="onemore" /></div>
+            <div><span>コース選択</span></div>
+        </div>
+    </div>
+    <!-- <div id="kakusi">
+            <li id="kaisi"></li>
+            <li id="owari"></li>
+        </ul>
+    </div> -->
+    <!-- <div>
+        <p><button id="start">開始/リセット</button><button id="pause">一時停止/再開</button><button id="wrap">ラップ</button></p>
+        <p id="watchArea"></p>
+        <textarea id="wrapArea"></textarea>
+    </div> -->
+    <script src="gatyagatya.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+</html>
